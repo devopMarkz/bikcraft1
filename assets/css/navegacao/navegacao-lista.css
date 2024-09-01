@@ -1,0 +1,5 @@
+.navegacao__lista{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}

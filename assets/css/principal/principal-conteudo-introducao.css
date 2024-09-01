@@ -1,0 +1,10 @@
+.principal__conteudo__introducao{
+    align-items: end;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 40px 0 40px;
+    text-align: right;
+}

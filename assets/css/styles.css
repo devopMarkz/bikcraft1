@@ -1,0 +1,41 @@
+@import './cabecalho.css';
+
+@import './navegacao/navegacao-lista.css';
+@import './navegacao/navegacao-lista-item-link.css';
+
+@import './principal.css';
+@import './principal/principal-conteudo-introducao.css';
+@import './principal/principal-conteudo-introducao-titulo.css';
+@import './principal/principal-conteudo-introducao-descricao.css';
+@import './principal/principal-conteudo-introducao-link.css';
+
+@import './footer.css';
+
+:root{
+    font-size: 62.5%;
+    --fundo-branco-menu: #FFFFFF;
+    --cinza-fundo: #f7f7f7;
+    --cinza-texto: #c6c6c6;
+    --preto-menu: #000000;
+    --vermelho: #ee2211;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: var(--cinza-fundo);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}

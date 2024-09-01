@@ -1,0 +1,15 @@
+.navegacao__lista__item__link{
+    background-color: var(--fundo-branco-menu);
+    border-radius: .4rem;
+    color: var(--preto-menu);
+    display: block;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: linear .1s;
+}
+
+.navegacao__lista__item__link:hover{
+    background-color: var(--vermelho);
+    color: white;
+}

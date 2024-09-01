@@ -1,0 +1,58 @@
+.principal__conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.principal__conteudo__introducao{
+    position: relative;
+}
+
+.principal__conteudo__introducao::after{
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: 30px;
+    width: 60px;
+    height: 4px;
+    background-color: var(--vermelho);
+}
+
+.principal__conteudo h2{
+    align-content: center;
+    background: url('../img/onda.svg') repeat-y;
+    color: var(--cinza-texto);
+    font-size: 6.2rem;
+    padding: 40px 20px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.principal__conteudo__lista{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.principal__conteudo__lista__item:nth-child(odd){
+    background-color: var(--cinza-fundo);
+}
+
+.principal__conteudo__lista__item{
+    align-items: center;
+    display: grid;
+    gap: 1rem 1rem;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    border-left: 4px solid transparent;
+}
+
+.principal__conteudo__lista__item:hover{
+    border-color: var(--vermelho);
+}
+
+.principal__conteudo__lista__item p{
+    grid-area: 2 / 2 / 2 / 2;
+}
